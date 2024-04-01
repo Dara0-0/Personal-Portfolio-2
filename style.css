@@ -191,25 +191,9 @@ section .header {
     background-color: #f8b3cc; /* Change card background color */
 }
 
-.features .card:nth-child(1) {
-    background-color: #f8b3cc; /* Change card background color */
-}
-
-.features .card:nth-child(2) {
-    background-color: #f3a732; /* Change card background color */
-}
-
-.features .card:nth-child(3) {
-    background-color: #ed583f; /* Change card background color */
-}
-
-.features .card:nth-child(4) {
-    background-color: #c7b65d; /* Change card background color */
-}
-
 .features .card span {
     display: inline-block;
-    background-color: #1e40af;
+    background-color: ##f8b3cc,;
     padding: 2px 9px;
     margin-bottom: 1rem;
     font-size: 1.75rem;
@@ -235,7 +219,7 @@ section .header {
 }
 
 .features .card a:hover {
-    color: #1e40af;
+    color: #f3a732;
 }
 
 .sub-header {
@@ -254,7 +238,7 @@ section .header {
 
 .pricing .card {
     padding: 3rem 2rem;
-    background-color: #27272a;
+    background-color: #ed583f;
     display: flex;
     flex-direction: column;
     border: 2px solid transparent;
@@ -263,7 +247,7 @@ section .header {
 }
 
 .pricing .card:hover {
-    background-color: #323232;
+    background-color: #c7b65d;
     border-color: black; /* Change border color to black */
 }
 
