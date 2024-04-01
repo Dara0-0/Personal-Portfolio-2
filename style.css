@@ -65,17 +65,25 @@ nav{
 }
 
 .btn{
-    padding: 1rem 2rem;
-    font-size: 1rem;
     color: #fff;
-    background-color: #1d4ed8;
-    border-radius: 5px;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    background-size: 152% 100%;
+    background: #fd4766;
+    color: #fff;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 .btn:hover{
-    background-color: #1e40af;
+    background: transparent;
+    border-color: #fd4766;
+    color: #fd4766;
 }
 
 .container{
