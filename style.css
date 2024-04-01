@@ -19,8 +19,8 @@ a {
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: white; /* Change background color to white */
-    color: black; /* Change font color to black */
+    background-color: #f3e7d8; /* Change background color */
+    color: black; /* Change font color */
 }
 
 nav {
@@ -47,7 +47,7 @@ nav {
 .link a {
     position: relative;
     padding-bottom: 0.75rem;
-    color: black; /* Change font color to black */
+    color: black; /* Change font color */
 }
 
 .link a::after {
@@ -66,7 +66,7 @@ nav {
 }
 
 .btn {
-    color: black; /* Change font color to black */
+    color: black; /* Change font color */
     font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -76,7 +76,6 @@ nav {
     font-weight: 500;
     background-size: 152% 100%;
     background: #fd4766;
-    color: black; /* Change font color to black */
     cursor: pointer;
     transition: all 0.3s ease;
 }
@@ -110,7 +109,7 @@ header {
 
 header .content h4 {
     margin-bottom: 1rem;
-    color: black; /* Change font color to black */
+    color: black; /* Change font color */
     font-size: 15px;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -127,7 +126,7 @@ header .content h4 {
 }
 
 header .content h1 {
-    color: black; /* Change font color to black */
+    color: black; /* Change font color */
     margin-bottom: 1rem;
     font-size: 3rem;
     font-weight: 700;
@@ -136,7 +135,7 @@ header .content h1 {
 
 header .content h1 span {
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 1px black; /* Change font color to black */
+    -webkit-text-stroke: 1px black; /* Change font color */
 }
 
 header .content p {
@@ -169,7 +168,7 @@ header .image img {
 
 section .header {
     margin-bottom: 1rem;
-    color: black; /* Change font color to black */
+    color: black; /* Change font color */
     text-align: center;
     font-size: 2.25rem;
     font-weight: 600;
@@ -183,16 +182,29 @@ section .header {
 }
 
 .features .card {
-    background-color: #27272a;
     padding: 1rem;
-    border: 2px solid transparent;
     border-radius: 15px;
     transition: all 0.3s ease;
 }
 
 .features .card:hover {
-    background-color: #323232;
-    border-color: black; /* Change border color to black */
+    background-color: #f8b3cc; /* Change card background color */
+}
+
+.features .card:nth-child(1) {
+    background-color: #f8b3cc; /* Change card background color */
+}
+
+.features .card:nth-child(2) {
+    background-color: #f3a732; /* Change card background color */
+}
+
+.features .card:nth-child(3) {
+    background-color: #ed583f; /* Change card background color */
+}
+
+.features .card:nth-child(4) {
+    background-color: #c7b65d; /* Change card background color */
 }
 
 .features .card span {
@@ -201,13 +213,13 @@ section .header {
     padding: 2px 9px;
     margin-bottom: 1rem;
     font-size: 1.75rem;
-    color: black; /* Change font color to black */
+    color: black; /* Change font color */
     border-radius: 5px;
 }
 
 .features .card h4 {
     margin-bottom: 0.5rem;
-    color: black; /* Change font color to black */
+    color: black; /* Change font color */
     font-size: 1.2rem;
     font-weight: 600;
 }
@@ -218,7 +230,7 @@ section .header {
 }
 
 .features .card a {
-    color: black; /* Change font color to black */
+    color: black; /* Change font color */
     transition: all 0.3s ease;
 }
 
@@ -262,13 +274,13 @@ section .header {
 
 .pricing .card h4 {
     margin-bottom: 1rem;
-    color: black; /* Change font color to black */
+    color: black; /* Change font color */
     font-size: 1.2rem;
     font-weight: 500;
 }
 
 .pricing .card h3 {
-    color: black; /* Change font color to black */
+    color: black; /* Change font color */
     padding-bottom: 1rem;
     margin-bottom: 2rem;
     font-size: 2rem;
@@ -277,7 +289,7 @@ section .header {
 }
 
 .pricing .card p {
-    color: black; /* Change font color to black */
+    color: black; /* Change font color */
     margin-bottom: 0.75rem;
 }
 
@@ -288,7 +300,7 @@ section .header {
 }
 
 .pricing .card button {
-    color: black; /* Change font color to black */
+    color: black; /* Change font color */
     background-color: transparent;
     border: 2px solid black; /* Change border color to black */
 }
@@ -331,13 +343,13 @@ footer .column .socials a {
 }
 
 footer .column .socials a:hover {
-    color: black; /* Change font color to black */
+    color: black; /* Change font color */
     background-color: #1d4ed8;
     border-color: #1d4ed8;
 }
 
 footer .column h4 {
-    color: black; /* Change font color to black */
+    color: black; /* Change font color */
     margin-bottom: 2rem;
     font-size: 1.2rem;
     font-weight: 500;
@@ -358,7 +370,7 @@ footer .column > a:hover {
     max-width: 1200px;
     margin: auto;
     padding: 1rem;
-    color: black; /* Change font color to black */
+    color: black; /* Change font color */
     font-size: 0.8rem;
     text-align: center;
 }
