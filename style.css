@@ -140,7 +140,7 @@ header .content h1 span {
 
 header .content p {
     margin-bottom: 2rem;
-    color: #ccc;
+    color: #333333;
 }
 
 header .image {
@@ -226,7 +226,7 @@ section .header {
     max-width: 600px;
     margin: auto;
     text-align: center;
-    color: #ccc;
+    color: #333333;
 }
 
 .pricing {
@@ -318,7 +318,7 @@ footer .column .socials {
 }
 
 footer .column .socials a {
-    color: #ccc;
+    color: #333333;
     border: 1px solid #ccc;
     padding: 5px 10px;
     font-size: 1.25rem;
@@ -341,7 +341,7 @@ footer .column h4 {
 
 footer .column > a {
     display: block;
-    color: #ccc;
+    color: #333333;
     margin-bottom: 1rem;
     transition: all 0.3s ease;
 }
