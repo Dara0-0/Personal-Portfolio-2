@@ -132,8 +132,8 @@ nav button#menuButton{
 }
 
 .main .right img{
-    width: 500px;
-    height: 600px;
+    width: 200px;
+    height: auto;
 }
 
 .skills{
