@@ -117,7 +117,7 @@ nav button#menuButton{
 
 .main .left p{
     color: #1c1e53;
-    font-size: 22px;
+    font-size: 15px;
     margin-top: 20px;
 }
 
@@ -133,7 +133,7 @@ nav button#menuButton{
 
 .main .right img{
     width: 500px;
-    height: 500px;
+    height: 600px;
 }
 
 .skills{
