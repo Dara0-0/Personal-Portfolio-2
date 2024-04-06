@@ -8,7 +8,7 @@ html{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 a{
@@ -91,7 +91,7 @@ nav button#menuButton{
 }
 
 .main{
-    background-color: #deebee;
+    background-color: #c7b65d;
     padding: 90px 85px;
     display: flex;
     align-items: center;
@@ -193,7 +193,7 @@ nav button#menuButton{
     margin-top: 20px;
     font-size: 14px;
     line-height: 22px;
-    color: #1c1e53;
+    color: #c7b65d;
 }
 
 .about{
