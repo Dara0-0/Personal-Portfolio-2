@@ -18,7 +18,7 @@ a{
 }
 
 a:hover{
-    color: #f3a732 !important;
+    color: #ffffff !important;
 }
 
 h5{
@@ -91,7 +91,7 @@ nav button#menuButton{
 }
 
 .main{
-    background-color: #c7b65d;
+    background-color: #f3e7d8;
     padding: 90px 85px;
     display: flex;
     align-items: center;
