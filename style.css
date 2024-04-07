@@ -215,7 +215,8 @@ nav button#menuButton{
 }
 
 .about{
-    padding: 110px;
+    background-color: #F5F5DC;
+    padding: 110px 85px;
     display: flex;
     align-items: center;
     gap: 60px;
