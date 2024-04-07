@@ -122,14 +122,35 @@ nav button#menuButton{
   -webkit-text-fill-color: transparent;
 }
 
-.main .left h3{
-    margin-top: 10px;
-    font-weight: bold;
-    font-size: 46px;
+<div class="main">
+    <div class="left">
+        <h3 class="typewriter">Your Text Here</h3>
+        <span>Dara</span>
+    </div>
+</div>
+
+.main .left .typewriter {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin-top: 10px; /* Adjust as needed */
+  font-weight: bold;
+  font-size: 46px;
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
 }
 
-.main .left h3 span{
-      color: #556B2F;
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #556B2F; }
 }
 
 .main .left p{
