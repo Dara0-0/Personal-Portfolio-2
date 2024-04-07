@@ -112,7 +112,20 @@ nav button#menuButton{
 }
 
 .main .left h3 span{
-    color: #556B2F;
+      color: #0a0a0a;
+      font-size: 15px;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      display: inline-block;
+      margin-bottom: 20px;
+      background: linear-gradient(
+        120deg,
+        #E27A3F 20.69%,
+        #A3333D  50.19%,
+        #2C363F  79.69%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .main .left p{
