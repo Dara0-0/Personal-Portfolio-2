@@ -129,7 +129,7 @@ nav button#menuButton{
 }
 
 .main .left h3 span{
-      color: 556B2F;
+      color: #556B2F;
 }
 
 .main .left p{
@@ -172,7 +172,7 @@ nav button#menuButton{
 }
 
 .skills .skill-items .item{
-    background-color: #FFFF00;
+    background-color: #ffe430;
     width: 25%;
     border-radius: 10px;
     padding: 32px;
