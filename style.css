@@ -253,6 +253,10 @@ nav button#menuButton{
     justify-content: space-between;
     margin-bottom: 60px;
 }
+.portfolio .header h5,
+.portfolio .header h3 {
+    color: #ffe430;
+}
 
 .portfolio .header button{
     background-color: #ff0000;
