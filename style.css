@@ -295,7 +295,7 @@ nav button#menuButton{
 }
 
 .portfolio .portfo-items .item img{
-    width: 100%;
+    width: 90%;
     height: 240px;
     object-fit: cover;
     object-position: top;
@@ -316,7 +316,7 @@ nav button#menuButton{
 .portfolio .portfo-items .item .info a{
     text-decoration: underline;
     text-underline-offset: 10px;
-    text-decoration-color: #5e3bee;
+    text-decoration-color: #ebcf17;
 }
 
 .portfolio .portfo-items .item .info a i{
