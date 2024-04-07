@@ -18,7 +18,7 @@ a{
 }
 
 a:hover{
-    color: #F3A732 !important;
+    color: #556B2F !important;
 }
 
 h5{
@@ -171,6 +171,27 @@ nav button#menuButton{
     margin-top: 20px;
 }
 
+
+.skills .skill-items .item .skills-list {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000000;
+    list-style: none;
+}
+
+.skills .skill-items .item .skills-list li {
+    padding-left: 20px;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.skills .skill-items .item .skills-list li i {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
 .skills .skill-items{
     display: flex;
     margin-top: 70px;
@@ -243,7 +264,7 @@ nav button#menuButton{
 }
 
 .portfolio{
-    background-color: #556B2F;
+    background-color: #808000;
     padding: 110px 85px;
 }
 
@@ -574,6 +595,7 @@ footer .bottom .links a{
 
     footer{
         padding: 85px 42px;
+        background-color: #F5F5DC;
     }
 
     footer .bottom{
