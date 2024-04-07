@@ -92,7 +92,7 @@ nav button#menuButton{
 
 .main{
     background-color: #F5F5DC;
-    padding: 90px 85px;
+    padding: 110px 85px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -160,7 +160,7 @@ nav button#menuButton{
 }
 
 .skills{
-    padding: 90px 85px;
+    padding: 110px 85px;
 }
 
 .skills h3,
@@ -222,7 +222,7 @@ nav button#menuButton{
 
 .about{
     background-color: #F5F5DC;
-    padding: 90px 85px;
+    padding: 110px 85px;
     display: flex;
     align-items: center;
     gap: 60px;
@@ -244,7 +244,7 @@ nav button#menuButton{
 
 .portfolio{
     background-color: #556B2F;
-    padding: 90px 85px;
+    padding: 110px 85px;
 }
 
 .portfolio .header{
@@ -321,7 +321,7 @@ nav button#menuButton{
 }
 
 .feedback{
-    padding: 90px 85px;
+    padding: 110px 85px;
 }
 
 .feedback .customers{
