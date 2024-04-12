@@ -391,7 +391,7 @@ table td {
 
 .contact form {
 	width: 66%;
-	padding: 110px 85px;
+	margin: 0px auto;
 }
 .contact input,
 textarea {
