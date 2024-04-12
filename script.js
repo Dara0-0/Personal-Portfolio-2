@@ -32,3 +32,32 @@ function animateSkills() {
 // Animate skills after content is loaded
 animateSkills();
 
+document.addEventListener('DOMContentLoaded', function() {
+  const form = document.querySelector('.contact form');
+
+  form.addEventListener('submit', function(event) {
+    event.preventDefault();
+    const fullName = form.querySelector('input[type="text"][placeholder="Full Name..."]').value.trim();
+    const email = form.querySelector('input[type="text"][placeholder="Full Email Id..."]').value.trim();
+    const mobileNo = form.querySelector('input[type="text"][placeholder="Full Mobile No..."]').value.trim();
+    const address = form.querySelector('textarea').value.trim();
+
+    // Validation
+    if (!fullName || !email || !mobileNo || !address) {
+      alert('Please fill in all fields');
+      return;
+    }
+
+    // Assuming submission code here...
+    // You can use AJAX or any other method to submit the form data
+    // For demonstration purposes, let's just log the data to the console
+    console.log('Full Name:', fullName);
+    console.log('Email:', email);
+    console.log('Mobile No:', mobileNo);
+    console.log('Address:', address);
+
+    // Clear the form after submission
+    form.reset();
+  });
+});
+
