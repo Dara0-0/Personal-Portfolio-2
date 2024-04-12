@@ -151,7 +151,7 @@ nav button#menuButton{
 .main .left button:hover{
     background-color: #F3A732;
     border-color: #F3A732;
-    color: #fff;
+    color: #000;
 }
 
 .main .right img{
@@ -405,6 +405,7 @@ textarea {
 .contact textarea {
 	height: 80px;
 }
+
 .contact button {
 	width: 100%;
 	float: left;
@@ -416,6 +417,13 @@ textarea {
 	border: none;
 	font-size: 16px;
 }
+
+.contact button:hover{
+    background-color: #df8211;
+    border-color: #df8211;
+    color: #fff;
+}
+
 .contact h3 {
 	font-size: 26px;
 	text-align: center;
