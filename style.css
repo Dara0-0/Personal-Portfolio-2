@@ -269,6 +269,7 @@ table td {
 
 .portfolio{
     padding: 110px 85px;
+    background-color: #556B2F;
 }
 
 .portfolio .header{
@@ -351,7 +352,6 @@ table td {
 
 .feedback{
     padding: 110px 85px;
-    background-color: #F5F5DC;
 }
 
 .edu-exp {
