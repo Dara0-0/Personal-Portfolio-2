@@ -48,14 +48,6 @@ document.addEventListener('DOMContentLoaded', function() {
       return;
     }
 
-    // Assuming submission code here...
-    // You can use AJAX or any other method to submit the form data
-    // For demonstration purposes, let's just log the data to the console
-    console.log('Full Name:', fullName);
-    console.log('Email:', email);
-    console.log('Mobile No:', mobileNo);
-    console.log('Address:', address);
-
     // Clear the form after submission
     form.reset();
   });
