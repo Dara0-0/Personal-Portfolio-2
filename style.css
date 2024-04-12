@@ -268,7 +268,6 @@ table td {
 }
 
 .portfolio{
-    background-color: #556B2F;
     padding: 110px 85px;
 }
 
@@ -352,6 +351,7 @@ table td {
 
 .feedback{
     padding: 110px 85px;
+    background-color: #F5F5DC;
 }
 
 .edu-exp {
@@ -375,13 +375,13 @@ table td {
 }
 .experience-content h2 {
 
-	font-weight: 600;
+	font-weight: 500;
 	margin-bottom: 5px;
 	font-size: 20px;
 }
 .experience-content h3 {
 	color: #ffffff;
-	font-weight: 500;
+	font-weight: 400;
 	margin-bottom: 2px;
 	font-size: 17px;
 }
