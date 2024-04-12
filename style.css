@@ -354,58 +354,39 @@ table td {
     padding: 110px 85px;
 }
 
-.feedback .customers{
-    margin-top: 50px;
-    display: flex;
-    gap: 40px;
+.edu-exp {
+	padding: 10px 0px;
+	width: 48%;
+	margin: 1%;
+	float: left;
+	padding-left: 10px;
 }
-
-.feedback .customers .item{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    border: 2px solid #FF8C00;
-    border-radius: 10px;
-    padding: 30px;
-    cursor: pointer;
-    transition: all 0.3s ease;
+.experience-list {
+	width: 100%;
+	float: left;
+	padding: 30px 10px;
+	background: #262626;
+	margin-bottom: 20px;
 }
-
-.feedback .customers .item .rating{
-    color: #006b6a;
-    font-size: 22px;
+.experience-content {
+	width: 100%;
+	float: left;
+	margin-left: 10px;
 }
+.experience-content h2 {
 
-.feedback .customers .item:hover{
-    border-color: #ebcf17;
+	font-weight: 600;
+	margin-bottom: 5px;
+	font-size: 20px;
 }
-
-.feedback .customers .item p{
-    line-height: 22px;
-    font-size: 14px;
+.experience-content h3 {
+	color: #ffbf35;
+	font-weight: 500;
+	margin-bottom: 2px;
+	font-size: 17px;
 }
-
-.feedback .customers .item .user{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.feedback .customers .item .user img{
-    width: 40px;
-    height: 40px;
-    object-fit: cover;
-    border-radius: 50%;
-}
-
-.feedback .customers .item .user h5{
-    font-size: 13px;
-    font-weight: 500;
-    margin-bottom: 3px;
-}
-
-.feedback .customers .item .user p{
-    font-size: 12px;
+.experience-content p {
+	font-size: 15px;
 }
 
 footer{
