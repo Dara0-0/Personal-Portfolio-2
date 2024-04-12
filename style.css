@@ -243,6 +243,20 @@ nav button#menuButton{
     margin-top: 30px;
 }
 
+.width-100 {
+	width: 100%;
+	float: left;
+}
+.mt-20 {
+	margin-top: 20px;
+}
+.heading-text {
+	width: 100%;
+	float: left;
+	font-size: 35px;
+	text-align: center;
+	margin-bottom: 50px;
+}
 table {
 	width: 100%;
 }
