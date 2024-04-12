@@ -365,7 +365,7 @@ table td {
 	width: 100%;
 	float: left;
 	padding: 30px 10px;
-	background: #262626;
+	background: #FF8C00;
 	margin-bottom: 20px;
 }
 .experience-content {
@@ -380,7 +380,7 @@ table td {
 	font-size: 20px;
 }
 .experience-content h3 {
-	color: #ffbf35;
+	color: #fff;
 	font-weight: 500;
 	margin-bottom: 2px;
 	font-size: 17px;
